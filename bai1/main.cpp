@@ -12,10 +12,6 @@ int totalDigitsOfNumber(int n) {
 
 int main() {
  	int n;
- 	do
- 	{
- 		cin >> n;
-	}
-    while(n<0);
+ 	cin >> n;
     cout<<totalDigitsOfNumber(n);
 }
